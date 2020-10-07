@@ -1,0 +1,143 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: rgba(194,133,133,0.15);
+}
+
+header{
+	z-index: 1000;
+	display: block;
+	position: fixed;
+	height: 20%;
+	width: 100%;
+	background-color: rgba(0,129,255,0.9);
+	top: 0;
+	border-bottom: 3px solid white;
+}
+
+       /* barre de menu*/
+nav{
+	width: 2000px;
+	height: 30px;
+	font-size: 17px;
+	position: absolute;
+	top: 50px;
+	left: 400pt;
+	width: 50em;
+}
+
+ul li{
+	list-style: none;
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+	border: 1px solid white;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+
+ul li a:hover {
+	padding: 1px;
+	font-size: 18px;
+	border-bottom: 3px solid white;
+}
+
+    /* logo et nom de domaine*/
+
+#grand_titre{
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	height: 100px;
+	width: 400px;
+}
+
+
+
+#logo img{
+	height: 105px;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+#nom_domaine{
+	display: inline;
+	position: absolute ;
+	top: 28px;
+	left: 130px;
+	color: white;
+	font-size: 40px;
+}
+
+#email{
+	position: absolute;
+	display: inline-block;
+	right: 30px;
+	top: 120px;
+	height: 25px;
+}
+
+#email a{
+	border: 1px solid white;
+	text-decoration: none;
+	color: white;
+}
+
+#email a:hover{
+	border-bottom: 2px solid white;
+}
+
+	/*section 1 but du site*/
+
+article{
+	display: block;
+	position: absolute;
+	top: 250px;
+	left: 125px
+}
+
+section{
+	background-color: rgba(194,133,133,0.04);
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	height: 600px;
+	width: 500px;
+	float: left;
+	border-radius:10px;
+	margin:50px;
+	padding: 20px;
+	line-height: 35px;
+	word-spacing: 8px;
+	font-size: 25px;
+}
+
+article section h2{
+	line-height: 50px;
+	text-align: center;
+}
+
+h2 strong {
+	color: red;
+}
+
+footer{
+	top: 30px;
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	font-size: 20px;
+}
+
+                                
+
+
+
+
+
